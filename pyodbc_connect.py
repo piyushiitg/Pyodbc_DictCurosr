@@ -1,6 +1,6 @@
 import pyodbc
 
-result = []
+results = []
 connStr = "DRIVER={FreeTDS};SERVER=%s;PORT=%s;UID=%s;PWD=%s;TDS_VERSION=7.2;timeout=%s;Trusted_Connection=no;UseNTLMv2=yes;" \
                     % (<server_ip>, str(<server_port>), <username'>, "<passwd>", <time_out>)
 
